@@ -1,0 +1,5 @@
+from .sudoku import SudokuWindow, Sudoku
+
+w = SudokuWindow()
+w.show(Sudoku("070000043040009610800634900094052000358460020000800530080070091902100005007040802"))
+w.wait()
